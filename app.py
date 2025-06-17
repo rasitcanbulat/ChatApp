@@ -29,7 +29,7 @@ socket_sid_map = {}  # {sid: username}
 app.register_blueprint(create_auth_blueprint(mysql, active_users), url_prefix="/api/auth")
 
 # ================================
-# 🌐 Sayfa Rotaları
+# 🌐 Sayfa Rotalarıj .S
 # ================================
 
 @app.route("/")

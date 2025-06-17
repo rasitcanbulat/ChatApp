@@ -13,8 +13,8 @@ pending_codes = {}  # username -> 6 haneli kod
 def send_verification_code(email, code):
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
-    sender_email = "baruinovasyon@gmail.com"  # KENDİ GMAİL'İN
-    sender_password = "orpjveuoorvaqpnr"  # Google’dan aldığın uygulama şifresi
+    sender_email = "" #BURAYA KENDİ MAİL ADRESİNİZİ GİREBİLİRSİNİZ.
+    sender_password = "" #BURAYA KENDİ MAİL UYGULAMA ŞİFRENİZİ GİREBİLİRSİNİZ.
 
     msg = MIMEText(f"ChatApp giriş doğrulama kodunuz: {code}")
     msg["Subject"] = "ChatApp Giriş Doğrulama"

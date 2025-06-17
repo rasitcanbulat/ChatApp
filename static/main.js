@@ -1,5 +1,5 @@
-// Ortak gizli anahtar (örnek)
-const SECRET_KEY = "J38sdf9h1!ks8LD$Xxk09g1h2@w9sdf1kq";
+// Gizli anahtar
+const SECRET_KEY = "sizin_cok_gizli_anahtarinizi_yazin";
 
 // AES ile şifreleme
 function encryptMessage(message) {
